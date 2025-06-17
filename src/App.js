@@ -14,7 +14,7 @@ const quizData = [
     explanation: "踏み切りは足で地面を強く蹴ることで跳び上がります。",
   },
 {
-    question: "跳び箱の踏み切りで使うのは？",
+    question: "倒立と逆立ちの違い？",
     options: ["ひざ", "手", "足", "おしり"],
     answer: "足",
     explanation: "踏み切りは足で地面を強く蹴ることで跳び上がります。",
