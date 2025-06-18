@@ -115,7 +115,7 @@ function App() {
         </>
       ) : (
         <>
-          <h2>{quizData[q].question}</h2>
+          <h2>問題{q + 1}：{quizData[q].question}</h2>
 
           {quizData[q].image && (
             <img
