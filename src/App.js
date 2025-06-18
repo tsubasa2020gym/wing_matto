@@ -88,7 +88,7 @@ function App() {
               <ul style={{ textAlign: "left", maxWidth: 500, margin: "0 auto" }}>
                 {wrongQuestions.map((item, i) => (
                   <li key={i} style={{ marginBottom: 20 }}>
-                    <strong>問題{i + 1}：</strong> {item.question}<br />
+                    <strong>問題：</strong> {item.question}<br />
                     <strong>あなたの答え：</strong> <span style={{ color: "red" }}>{item.selected}</span><br />
                     <strong>正解：</strong> {item.answer}<br />
                     <strong>解説：</strong> {item.explanation}
